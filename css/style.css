@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(120deg, #2c3e50, #3498db);
+    color: white;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 1.5rem 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.content h2,
+.content h3 {
+    color: #2c3e50;
+    margin: 2rem 0 1rem;
+    padding-left: 1rem;
+    border-left: 4px solid #3498db;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.content ul,
+.content ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.content ul li,
+.content ol li {
+    margin-bottom: 0.7rem;
+}
+
+.chart-placeholder {
+    background: #fff;
+    padding: 1.8rem;
+    border-radius: 15px;
+    margin: 2rem 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.chart-placeholder table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.chart-placeholder th,
+.chart-placeholder td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.chart-placeholder th {
+    background-color: #3498db;
+    color: white;
+    font-weight: 600;
+}
+
+.call-to-action {
+    text-align: center;
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    padding: 3rem 1.5rem;
+    border-radius: 20px;
+    margin: 3rem 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.call-to-action h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+}
+
+.btn {
+    background: #fff;
+    color: #e74c3c;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 0.9rem;
+    background: #2c3e50;
+    color: #ecf0f1;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
